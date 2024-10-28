@@ -6,7 +6,6 @@ primary color variable below.
 */
 
 :root {
-	--color-primary: blue;
 	--color-secondary: #c00;
 }
 
@@ -32,4 +31,12 @@ h1 {
 		margin: 0 auto;
 		max-width: 768px;
 	}
+}
+
+.show {
+	color:red;
+}
+
+.hide {
+	display: none;
 }
